@@ -1,6 +1,7 @@
 import javax.swing.*;
 public class AlphaBetaChess {
     public static void main (String[] args){
+        int test = 1;
         JFrame f = new JFrame("Chess");
         f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         UserInterface ui = new UserInterface();
